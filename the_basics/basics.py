@@ -1,5 +1,5 @@
 import datetime
-x=print(datatime.datetime.now())
+x=datatime.datetime.now()
 #print(x)
 
 number = 10
