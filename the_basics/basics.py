@@ -1,5 +1,5 @@
 import datetime
-x=datatime.datetime.now()
+x=datetime.datetime.now()
 #print(x)
 
 number = 10
@@ -8,5 +8,6 @@ print(number, word)
 x = 10
 y = 10.5
 z = "string"
+student_grades = [1,2,3]
 
-print(type(x), type(y), type(z))
+print(type(x), type(y), type(z), type(student_grades)
