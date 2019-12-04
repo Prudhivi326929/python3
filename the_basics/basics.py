@@ -16,8 +16,15 @@ student_grades = [1,2,3]
 
 #print(dir(list)) #lists all possible methods with type "list"
 
+"""
 mysum = sum(student_grades)
 length = len(student_grades)
 mean = mysum/length
 print(mean)
 print(student_grades.count(1))
+"""
+
+student_grades = {"marry":9.1, "john":7.5}
+print(student_grades)
+print(student_grades.values())
+print(student_grades.keys())
