@@ -17,14 +17,27 @@ student_grades = [1,2,3]
 #print(dir(list)) #lists all possible methods with type "list"
 
 """
+List Methods
 mysum = sum(student_grades)
 length = len(student_grades)
 mean = mysum/length
 print(mean)
 print(student_grades.count(1))
+student_grades.append(10)
+student_grades.remove(2)
 """
 
+"""
+Dictionaries
 student_grades = {"marry":9.1, "john":7.5}
 print(student_grades)
 print(student_grades.values())
 print(student_grades.keys())
+"""
+
+temp_tuple = (1,4,5)
+#tuples are immutable. Means we can't add values to tuple once created.
+
+print(dir(__builtins__)) # to print Python builtin functions
+
+
