@@ -38,6 +38,16 @@ print(student_grades.keys())
 temp_tuple = (1,4,5)
 #tuples are immutable. Means we can't add values to tuple once created.
 
-print(dir(__builtins__)) # to print Python builtin functions
+#print(dir(__builtins__)) # to print Python builtin functions
+
+#list methods
+mon = [9.1, 8.8, 10.9, 8.0]
+mon.append(1.0)
+#mon.clear()
+mon.index(8.8)
+mon.__getitem__(1)
+print(mon[1])
+print(mon[1:4] #[8.8,10.9,8.0]
+
 
 
