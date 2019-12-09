@@ -1,4 +1,5 @@
-user_input = input("Enter your name: ")
-#message = "Hello %s!" % user_input
-message = f"Hello {user_input}"
+name = input("Enter your name: ")
+surname = input("enter your surname: ")
+#message = "Hello %s %s% {name, surname
+message = f"Hello {name} {surname}"
 print(message)
