@@ -6,3 +6,6 @@ for i in temp:
 stu_grades = ["Marry":9.0, "Sim":8.8, ""John:7.4]
 for i in stu_grades.items():#you can use keys() or values() to iterate
   print(i)
+phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
+for i in phone_numbers.values():
+    print(i.replace("+","00"))
