@@ -9,3 +9,14 @@ for i in stu_grades.items():#you can use keys() or values() to iterate
 phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
 for i in phone_numbers.values():
     print(i.replace("+","00"))
+
+username = ''
+while username != "pypy":
+  username = input("Enter user name: ")
+  
+while True:
+  username = input("Enter username: ")
+  if username == "pypy":
+    break
+  else:
+    continue
