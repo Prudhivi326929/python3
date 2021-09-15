@@ -143,3 +143,14 @@ main()
  
 hangman()
  
+
+ This is a Python script of the classic game “Hangman”. The word to guess is represented by a row of dashes. If the player guess a letter which exists in the word, the script writes it in all its correct positions.  The player has 5 turns to guess the word. You can easily customize the game by changing the variables.
+
+The objective of our project is to implement the hangman game using Python. It doesn’t require any specific modules other than random and time. Python loops and functions are enough to build this game here.
+
+To execute this game, all you need is to run this scrip. It'll ask for your name and after entering that, you'll given 5 seconds time and then the game will start.
+You'll be presented with a pictorial representation of the word that needs to be guessed. You'll have 5 chances to guess it. 
+Every time you select the correct guess, the correct letter will be displaed in its position in the work.
+
+If you guess all the letters, you're great and it'll ask for your input to play one more time or quit. 
+If you couldn't guess it in the 5 chances, you'll be presented with solution word.
