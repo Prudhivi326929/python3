@@ -154,3 +154,16 @@ Every time you select the correct guess, the correct letter will be displaed in 
 
 If you guess all the letters, you're great and it'll ask for your input to play one more time or quit. 
 If you couldn't guess it in the 5 chances, you'll be presented with solution word.
+
+
+
+.gitignore
+*id_rsa
+*.zip
+.DS_Store
+*.csr
+*.pem
+*.key 
+*.crt
+*.cert
+
