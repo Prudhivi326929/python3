@@ -142,7 +142,9 @@ main()
  
  
 hangman()
- 
+
+
+#####################################
 
  This is a Python script of the classic game “Hangman”. The word to guess is represented by a row of dashes. If the player guess a letter which exists in the word, the script writes it in all its correct positions.  The player has 5 turns to guess the word. You can easily customize the game by changing the variables.
 
@@ -155,7 +157,7 @@ Every time you select the correct guess, the correct letter will be displaed in 
 If you guess all the letters, you're great and it'll ask for your input to play one more time or quit. 
 If you couldn't guess it in the 5 chances, you'll be presented with solution word.
 
-
+########################################
 
 .gitignore
 *id_rsa
@@ -166,4 +168,8 @@ If you couldn't guess it in the 5 chances, you'll be presented with solution wor
 *.key 
 *.crt
 *.cert
-
+#########################################
+    words_to_guess = ["january","border","image","film","promise","kids","lungs","doll","rhyme","damage"
+                   ,"plants"]
+ 
+ ##################################
