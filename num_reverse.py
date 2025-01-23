@@ -1,7 +1,11 @@
-a = int(input("Enter the number: "))
-reverse = 0
-while a!=0:
-  digit = a % 10
-  reverse = reverse*10 + digit
-  a = int(a/10)
-print(reverse)
+def reverse_number(n):
+    reversed_num = 0
+    while n > 0:
+        digit = n % 10
+        reversed_num = reversed_num * 10 + digit
+        n = n // 10
+    return reversed_num
+
+# Example usage
+number = 12345
+print("Reversed number:", reverse_number(number))
